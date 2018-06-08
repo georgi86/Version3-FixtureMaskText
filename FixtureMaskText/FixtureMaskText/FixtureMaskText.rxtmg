@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="FixtureMaskText"
+      id="118ef510-cebb-4905-9ff2-5e18c4135bfd"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="FixtureMaskText"
+      id="118ef510-cebb-4905-9ff2-5e18c4135bfd"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

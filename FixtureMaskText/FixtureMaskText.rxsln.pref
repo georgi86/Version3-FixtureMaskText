@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{57A9FC9E-58E8-4C67-B9CA-1A4922E5BF0D}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution FixtureMaskText[FixtureMaskText[]]]&#xD;&#xA;Solution FixtureMaskText\FixtureMaskText\Recording1.rxrec&#xD;&#xA;Solution FixtureMaskText" />
+  <StartupProject value="{57A9FC9E-58E8-4C67-B9CA-1A4922E5BF0D}" />
+</Properties>

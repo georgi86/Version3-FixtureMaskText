@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{57A9FC9E-58E8-4C67-B9CA-1A4922E5BF0D}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FixtureMaskText</RootNamespace>
+    <AssemblyName>FixtureMaskText</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>4ce97db6-6647-4670-ac67-b1e1cee3d8bb</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>10629e37-b04c-4410-a349-f4dd8ddf0b20</id>
+    </Compile>
+    <Compile Include="FixtureMaskTextRepository.cs">
+      <BoundTo>4ce97db6-6647-4670-ac67-b1e1cee3d8bb</BoundTo>
+      <DependentUpon>FixtureMaskTextRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f2017309-096c-4bc7-b3c7-84cdb4163299</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>369aaa34-1480-4848-86bb-e27fb8729c6f</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>3decb094-0f1a-45e9-96c6-b18045fd5794</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c610b880-7709-49e7-8ddd-25ddbac80fb4</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>3decb094-0f1a-45e9-96c6-b18045fd5794</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6fb79af0-240f-4e10-8baf-4d0fee7f64f6</id>
+    </Compile>
+    <Compile Include="UtilityFunctions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>7c27c312-7069-453b-b16f-f2a0b7931913</id>
+    </None>
+    <None Include="FixtureMaskTextRepository.rximg">
+      <BoundTo>4ce97db6-6647-4670-ac67-b1e1cee3d8bb</BoundTo>
+      <DependentUpon>FixtureMaskTextRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>981862f8-bee3-40d4-9cde-843c80639c0d</id>
+    </None>
+    <None Include="FixtureMaskTextRepository.rxrep">
+      <id>4ce97db6-6647-4670-ac67-b1e1cee3d8bb</id>
+      <repoid>73068ee7-b698-481e-8b5d-9a0497753a86</repoid>
+      <reporootid>0e37c180-8858-4e48-b840-d2010a5236b0</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>4ce97db6-6647-4670-ac67-b1e1cee3d8bb</BoundTo>
+      <id>3decb094-0f1a-45e9-96c6-b18045fd5794</id>
+      <recordtableid>9ab50ae7-5580-449e-8d31-7d53472991db</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FixtureMaskText.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e2adc4aa-f848-4eec-9a60-e0a3b537e8c3</id>
+    </Content>
+    <Content Include="FixtureMaskText.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e081285b-5e26-4336-885b-b603e10d7831</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="760dfccf83c6ea"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/7/2018 10:24:05"
+		timestampiso="2018-06-07T07:24:05"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.092"
+			timeRelativeToTestModuleStartTime="00:00.092"
+			timeWallClock="10:24:05"
+			time="00:00.092"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TextMeasure' at 29;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']"
+				fullname="FixtureMaskTextRepository.SnapXUntitled.TextMeasure"
+				id="f80af225e0144e389b4538cb18157157"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.160"
+			timeRelativeToTestModuleStartTime="00:05.160"
+			timeWallClock="10:24:10"
+			time="00:05.160"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.FixtureSubstractionButton' at 22;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@commandid='40161']"
+				fullname="FixtureMaskTextRepository.SnapXUntitled.FixtureSubstractionButton"
+				id="d2307a3ac59041c39f5aa115ead5e9ac"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.359"
+			timeRelativeToTestModuleStartTime="00:08.359"
+			timeWallClock="10:24:13"
+			time="00:08.359"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SNAPX.SNAPX' at 84;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='SNAP-X']/titlebar[@accessiblerole='TitleBar']"
+				fullname="FixtureMaskTextRepository.SNAPX.SNAPX"
+				id="63e633772c5d454fa77b3b7002a01ab5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.143"
+			timeRelativeToTestModuleStartTime="00:09.143"
+			timeWallClock="10:24:14"
+			time="00:09.143"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SNAPX.Text65535' at 43;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='SNAP-X']/text[@controlid='65535']"
+				fullname="FixtureMaskTextRepository.SNAPX.Text65535"
+				id="630357c8abb843e69d147d5296da494f"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.883"
+			timeRelativeToTestModuleStartTime="00:09.883"
+			timeWallClock="10:24:15"
+			time="00:09.883"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.089"
+			timeRelativeToTestModuleStartTime="00:10.089"
+			timeWallClock="10:24:15"
+			time="00:10.089"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.FixtureSubstractionButton' at 48;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@commandid='40161']"
+				fullname="FixtureMaskTextRepository.SnapXUntitled.FixtureSubstractionButton"
+				id="d2307a3ac59041c39f5aa115ead5e9ac"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.832"
+			timeRelativeToTestModuleStartTime="00:12.832"
+			timeWallClock="10:24:17"
+			time="00:12.832"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SNAPX1.CreateFixtureMask' at 65;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='SNAP-X']/?/?/menuitem[@accessiblename='Create Fixture Mask...']"
+				fullname="FixtureMaskTextRepository.SNAPX1.CreateFixtureMask"
+				id="a34d272908314bf98c33f025b44cfb17"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.603"
+			timeRelativeToTestModuleStartTime="00:13.603"
+			timeWallClock="10:24:18"
+			time="00:13.603"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SNAPX.SNAPX' at 95;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='SNAP-X']/titlebar[@accessiblerole='TitleBar']"
+				fullname="FixtureMaskTextRepository.SNAPX.SNAPX"
+				id="63e633772c5d454fa77b3b7002a01ab5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.376"
+			timeRelativeToTestModuleStartTime="00:14.376"
+			timeWallClock="10:24:19"
+			time="00:14.376"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SNAPX.Text65535' at 58;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='SNAP-X']/text[@controlid='65535']"
+				fullname="FixtureMaskTextRepository.SNAPX.Text65535"
+				id="630357c8abb843e69d147d5296da494f"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.114"
+			timeRelativeToTestModuleStartTime="00:15.114"
+			timeWallClock="10:24:20"
+			time="00:15.114"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Right}'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.317"
+			timeRelativeToTestModuleStartTime="00:15.317"
+			timeWallClock="10:24:20"
+			time="00:15.317"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="126"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

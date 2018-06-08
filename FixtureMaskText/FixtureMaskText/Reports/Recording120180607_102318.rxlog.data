@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ed41fc1eea17638"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/7/2018 10:23:20"
+		timestampiso="2018-06-07T07:23:20"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.072"
+			timeRelativeToTestModuleStartTime="00:00.072"
+			timeWallClock="10:23:20"
+			time="00:00.072"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TextMeasure' at 29;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']"
+				fullname="FixtureMaskTextRepository.SnapXUntitled.TextMeasure"
+				id="f80af225e0144e389b4538cb18157157"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.911"
+			timeRelativeToTestModuleStartTime="00:04.911"
+			timeWallClock="10:23:25"
+			time="00:04.911"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.SwitchToSensor' at 16;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']"
+				fullname="FixtureMaskTextRepository.SnapXUntitled.SwitchToSensor"
+				id="98b238379e3f41bd842f5e68cd62b4d5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.981"
+			timeRelativeToTestModuleStartTime="00:05.981"
+			timeWallClock="10:23:26"
+			time="00:05.981"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_477c01d5_39d9b34e_trace.jpg"
+			errthumb=".\Recordin_477c01d5_39d9b34e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.FixtureSubstractionButton' at 22;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@commandid='40161']"
+				fullname="FixtureMaskTextRepository.SnapXUntitled.FixtureSubstractionButton"
+				id="d2307a3ac59041c39f5aa115ead5e9ac"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.201"
+			timeRelativeToTestModuleStartTime="00:09.201"
+			timeWallClock="10:23:29"
+			time="00:09.201"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_477c01d5_0cddff8c_trace.jpg"
+			errthumb=".\Recordin_477c01d5_0cddff8c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SNAPX.SNAPX' at 84;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='SNAP-X']/titlebar[@accessiblerole='TitleBar']"
+				fullname="FixtureMaskTextRepository.SNAPX.SNAPX"
+				id="63e633772c5d454fa77b3b7002a01ab5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\FixtureMaskText\FixtureMaskText\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.898"
+			timeRelativeToTestModuleStartTime="00:16.898"
+			timeWallClock="10:23:37"
+			time="00:16.898"
+			level="Error"
+			category="User"
+			errimg=".\Recordin_477c01d5_b0c8d0f1_trace.jpg"
+			errthumb=".\Recordin_477c01d5_b0c8d0f1_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
