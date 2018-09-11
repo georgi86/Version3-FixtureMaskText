@@ -14,6 +14,7 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.IO;
 
 
 using Ranorex;
@@ -79,6 +80,12 @@ namespace FixtureMaskText
             Delay.SpeedFactor = 1.00;
 
             Init();
+
+            if (File.Exists("C:\\QVI\\Snap-X\\Config\\FixtureMask.bmp"))
+            {
+                File.Delete("C:\\QVI\\Snap-X\\Config\\FixtureMask.bmp");
+            }
+            
 
             bool bBigMode = true;
 

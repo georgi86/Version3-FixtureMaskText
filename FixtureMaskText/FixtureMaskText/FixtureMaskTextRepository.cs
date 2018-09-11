@@ -116,7 +116,7 @@ namespace FixtureMaskText
             /// Creates a new SnapXUntitled  folder.
             /// </summary>
             public SnapXUntitledAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "6e196128-cab2-41f0-89f0-ff55534d84fe", "")
+                    base("SNAPXUntitled", "/form[@title='SNAP-X - [Untitled]']", parentFolder, 30000, null, true, "6e196128-cab2-41f0-89f0-ff55534d84fe", "")
             {
                 _textmeasureInfo = new RepoItemInfo(this, "TextMeasure", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "f80af225-e014-4e38-9b45-38cb18157157");
                 _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']", 30000, null, "98b23837-9e3f-41bd-842f-5e68cd62b4d5");
